@@ -18,39 +18,39 @@ window.onload = () => {
 
         switch (num) {
             case 1:
-                mainImage = 'css/cars/cars/img1.jpg';
-                bckgrnd1 = "url('css/cars/cars/img2.jpg')";
-                bckgrnd2 = 'css/cars/img3.jpg';
-                bckgrnd3 = 'css/cars/img4.jpg';
-                bckgrnd4 = 'css/cars/img5.jpg';
+                mainImage = 'css/shin/img1.jpg';
+                bckgrnd1 = "url('css/shin/img2.jpg')";
+                bckgrnd2 = 'css/shin/img3.jpg';
+                bckgrnd3 = 'css/shin/img4.jpg';
+                bckgrnd4 = 'css/shin/img5.jpg';
                 break;
             case 2:
-                mainImage = 'css/cars/img2.jpg';
-                bckgrnd1 = 'css/cars/img3.jpg';
-                bckgrnd2 = 'css/cars/img4.jpg';
-                bckgrnd3 = 'css/cars/img5.jpg';
-                bckgrnd4 = 'css/cars/img1.jpg';
+                mainImage = 'css/shin/img2.jpg';
+                bckgrnd1 = 'css/shin/img3.jpg';
+                bckgrnd2 = 'css/shin/img4.jpg';
+                bckgrnd3 = 'css/shin/img5.jpg';
+                bckgrnd4 = 'css/shin/img1.jpg';
                 break;
             case 3:
-                mainImage = 'css/cars/img3.jpg';
-                bckgrnd1 = 'css/cars/img4.jpg';
-                bckgrnd2 = 'css/cars/img5.jpg';
-                bckgrnd3 = 'css/cars/img2.jpg';
-                bckgrnd4 = 'css/cars/img1.jpg';
+                mainImage = 'css/shin/img3.jpg';
+                bckgrnd1 = 'css/shin/img4.jpg';
+                bckgrnd2 = 'css/shin/img5.jpg';
+                bckgrnd3 = 'css/shin/img2.jpg';
+                bckgrnd4 = 'css/shin/img1.jpg';
                 break;
             case 4:
-                mainImage = 'css/cars/img4.jpg';
-                bckgrnd1 = 'css/cars/img5.jpg';
-                bckgrnd2 = 'css/cars/img1.jpg';
-                bckgrnd3 = 'css/cars/img2.jpg';
-                bckgrnd4 = 'css/cars/img3.jpg';
+                mainImage = 'css/shin/img4.jpg';
+                bckgrnd1 = 'css/shin/img5.jpg';
+                bckgrnd2 = 'css/shin/img1.jpg';
+                bckgrnd3 = 'css/shin/img2.jpg';
+                bckgrnd4 = 'css/shin/img3.jpg';
                 break;
             case 5:
-                mainImage = 'css/cars/img5.jpg';
-                bckgrnd1 = 'css/cars/img1.jpg';
-                bckgrnd2 = 'css/cars/img2.jpg';
-                bckgrnd3 = 'css/cars/img3.jpg';
-                bckgrnd4 = 'css/cars/img4.jpg';
+                mainImage = 'css/shin/img5.jpg';
+                bckgrnd1 = 'css/shin/img1.jpg';
+                bckgrnd2 = 'css/shin/img2.jpg';
+                bckgrnd3 = 'css/shin/img3.jpg';
+                bckgrnd4 = 'css/shin/img4.jpg';
                 break;
         }
     }
