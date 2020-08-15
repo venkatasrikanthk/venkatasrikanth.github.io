@@ -1,0 +1,281 @@
+.postn-relative {
+    position: relative;
+}
+
+#gallery {
+    width: auto;
+    height: 580px;
+    background-size: cover;
+    margin: 5px;
+    background-position: initial;
+    background-image: url(css/flowershd.jpg);
+    background-repeat: no-repeat;
+}
+
+.top-frame-box {
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+.bottom-frame-box {
+    width: 680px;
+    height: 500px;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+    background-image: url(css/effects/bottom-frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.frame {
+    max-width: 200px;
+    height: 140px;
+}
+
+.big-frame {
+    width: 495px;
+    height: 391px;
+    border: 1px solid black;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    border-radius: 5%;
+    border-bottom-color: cornflowerblue;
+    border-left-color: crimson;
+    transition: width 0.5s, height 0.5s, border 0.5s;
+}
+
+.top-bckgrnd-1 {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 37px;
+    left: 95px;
+    z-index: 3;
+}
+
+.bckgrnd-1-img {
+    max-width: 90px;
+    height: 90px;
+    border: 1px solid #0277f5;
+    border-bottom-right-radius: 20%;
+}
+
+.top-bckgrnd-2 {
+    width: 150px;
+    height: 113px;
+    position: absolute;
+    top: 37px;
+    left: 95px;
+    transition: top 0.5s linear, left 0.5s;
+    z-index: 2;
+}
+
+.bckgrnd-2-img {
+    max-width: 150px;
+    height: 113px;
+    border: 1px solid #fefe0c;
+    border-bottom-right-radius: 20%;
+}
+
+.top-bckgrnd-3 {
+    width: 190px;
+    height: 145px;
+    position: absolute;
+    top: 37px;
+    left: 95px;
+    transition: top 0.5s linear, left 0.5s;
+    z-index: 1;
+}
+
+.bckgrnd-3-img {
+    max-width: 190px;
+    height: 145px;
+    border: 1px solid #0277f5;
+    border-bottom-right-radius: 20%;
+}
+
+.top-bckgrnd-4 {
+    width: 240px;
+    height: 178px;
+    position: absolute;
+    top: 37px;
+    left: 95px;
+    z-index: 0;
+    transition: top 0.5s linear, left 0.5s;
+}
+
+.bckgrnd-4-img {
+    max-width: 240px;
+    height: 178px;
+    border: 1px solid #fefe0c;
+    border-bottom-right-radius: 20%;
+}
+
+
+/* media queries */
+
+
+/* @media screen and (min-width:380px) and (max-width:600px) {
+    #gallery {
+        width: 500px;
+        height: 600px;
+        margin: auto;
+    }
+    .bottom-frame-box {
+        width: 400px;
+        height: 180px;
+        position: absolute;
+        top: 400px;
+        left: 5px;
+    }
+} */
+
+#parallax1 {
+    width: auto;
+    height: 700px;
+    padding: 5rem;
+    background-image: url('css/green\ leaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#parallax1 div {
+    text-align: center;
+}
+
+#parallax1 div {
+    background-color: white;
+    opacity: 0.6;
+    transform: skewX(10deg);
+}
+
+#parallax1 div p {
+    visibility: hidden;
+    font-family: none;
+    font-size: 50px;
+    color: green;
+    text-shadow: none;
+    transition: visibility 1s, font-family 5s;
+}
+
+
+/* 
+#parallax1 div p:hover {
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px sandybrown;
+} */
+
+#parallax2 {
+    width: auto;
+    height: 400px;
+    background-image: url('css/cute\ angry.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#parallax3 {
+    width: auto;
+    height: 400px;
+    background-image: url('css/butterfly.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 200px;
+}
+
+a {
+    color: white;
+}
+
+#parallax3 div span {
+    font-size: 20px;
+    color: aliceblue;
+    margin-right: 18px;
+}
+
+#parallax3 div span a:hover {
+    color: #81dcff;
+    font-size: 28px;
+}
+
+#circle-Section {
+    width: auto;
+    height: 600px;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #f200a6, #0028f2);
+    display: flex;
+    justify-content: center;
+}
+
+.circle-div {
+    position: absolute;
+    top: 6rem;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 10px 15px 31px 1px #f200a6;
+    transform: rotateX(70deg);
+}
+
+.rectangle-div {
+    position: absolute;
+    top: 9rem;
+    width: 210px;
+    height: 210px;
+}
+
+.rectangle-img {
+    width: 210px;
+    height: 210px;
+    border: 1px solid black;
+}
+
+.balloon-1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.balloon-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.balloon-1,
+.balloon-2 {
+    animation: balloon-animate 15s linear 0s infinite;
+}
+
+@keyframes balloon-animate {
+    0% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: 350px;
+    }
+}
+
+.balloon-1 img,
+.balloon-2 img {
+    width: 200px;
+    height: 200px;
+}
